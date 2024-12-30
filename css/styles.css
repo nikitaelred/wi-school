@@ -859,7 +859,7 @@ button.slick-next.custom-next.slick-arrow {
 .mob-new-course{
     display: none;
 }
-@media (max-width: 1024px) {
+@media (max-width: 1080px) {
     .slick-arrow {
         display: none !important;
     }
