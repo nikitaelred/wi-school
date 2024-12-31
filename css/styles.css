@@ -589,6 +589,19 @@ p.tech-name {
     flex-basis: 55%;
     gap: 15px;
 }
+.best-instructors .green::after {
+    display: none;
+}
+.jop-opp span {
+    font-family: 'poppins';
+    font-size: 20px;
+    font-weight: 600;
+}
+.jop-opp p {
+    font-family: 'poppins';
+    font-size: 13px;
+    font-weight: 600;
+}
 .review-heading {
     font-size: 48px;
     font-weight: 700;
