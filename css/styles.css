@@ -1085,7 +1085,7 @@ span.students img {
         background-image: url(../images/mob-bg.svg), url(../images/mob-banner-bg.svg);
         background-repeat: no-repeat, no-repeat;
         background-position: 93% 13px, 24px;
-        background-size: contain, 100%;
+        background-size: contain, 93%;
     }
 
     
