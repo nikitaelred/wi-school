@@ -1120,7 +1120,7 @@ section.instructors-section .header h2 {
         display: none !important;
     }
     .slick-slide {
-        margin: 0 3px; /* Adjust the gap size (10px in this case) */
+        margin: 0 8px;
     }
     .HeroSec {
         height: auto;
