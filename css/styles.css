@@ -1086,6 +1086,7 @@ span.students img {
         background-repeat: no-repeat, no-repeat;
         background-position: 93% 13px, 24px;
         background-size: contain, 213px;
+        backdrop-filter: blur(700px);
     }
 
     
