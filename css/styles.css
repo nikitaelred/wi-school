@@ -1151,13 +1151,19 @@ section.instructors-section .header h2 {
         color: #ffffff;
         bottom: 9px;
         font-family: 'Poppins';
-        font-size: 11px;
+        font-size: 16px;
         left: 0%;
-        top: 41%;
+        /* top: 45%; */
         font-weight: 600;
     }
     .slides .slide {
+        display: flex
+;
         background-size: contain;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
     }
     .navbar-mob {
         display: flex
