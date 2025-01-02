@@ -1057,10 +1057,10 @@ span.students img {
         width: 100% !important;
     }
     .hero-section{
-    background-image: url('../images/mob-banner-bg.svg'),url('../images/mob-bg.svg');
+    background-image: url('../images/mob-bg.svg'),url('../images/mob-banner-bg.svg');
     background-repeat: no-repeat,no-repeat;
-    background-position: -146px, 276px 13px;
-    background-size: cover,contain;
+    background-position: 276px 13px,-136px;
+    background-size: contain,cover;
     }
     
     .jop-opp {
