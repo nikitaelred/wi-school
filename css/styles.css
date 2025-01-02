@@ -1092,14 +1092,14 @@ span.students img {
     .hero-section::after{
         content: '';
   position: absolute;
-  top: 402;
+  top: 402px;
   left: 56px;
   width: 213px;
   height: 213px;
   background: url('../images/mob-banner-bg.svg') no-repeat center center;
-  background-size: 213px;
-  background-position: cover;
-  filter: blur(100px); /* Adjust blur strength */
+  background-size: cover;
+  background-position: center;
+  filter: blur(700px); /* Adjust blur strength */
   z-index: 1; /* Place it behind the content */
     }
 
