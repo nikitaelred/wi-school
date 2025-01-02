@@ -1365,7 +1365,7 @@ justify-content: flex-start;
         font-family: 'Poppins';
         font-size: 14px;
         font-weight: 500;
-        width: 90%;
+        width: 93%;
     }
     .course-title {
         display: flex
@@ -1792,6 +1792,6 @@ footer ul li a {
     font-family: 'Poppins';
     font-size: 12px;
     font-weight: 500;
-    width: 90%;
+    width: 93%;
 }
 }
