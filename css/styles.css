@@ -361,7 +361,8 @@ nav.navbar .container {
   }
   
   .slides {
-    display: block;
+    display: flex
+;
     /* overflow: auto; */
     width: 100%;
     justify-content: center;
