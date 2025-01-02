@@ -1100,7 +1100,7 @@ span.students img {
         background-size: cover;
         background-position: center;
         z-index: -9999999999999;
-        filter: blur(400px);
+        filter: blur(700px);
     }
 
     
