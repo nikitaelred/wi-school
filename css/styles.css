@@ -103,11 +103,19 @@ nav.navbar .container {
 
 /* Container for the Hero Section */
 .hero-section .container {
+    padding: 12px 100px 84px 100px;
+}
+.HeroSec {
     display: flex
 ;
-justify-content: space-between;
     align-items: center;
-    padding: 12px 102px 84px 39px;
+    height: 605px;
+    background-image: url('../images/Ellipse\ 5.svg'),url('../images/Frame\ 6516\ \(1\).svg');
+    background-repeat: no-repeat,no-repeat;
+    background-position: bottom left,right;
+    border-radius: 50px 50px 50px 50px;
+    padding-right: 39px;
+    justify-content: space-between;
 }
 .best-instructors {
     width: 262px;
@@ -134,8 +142,35 @@ justify-content: space-between;
 }
 .amazing-students {
     position: absolute;
-    bottom: -27px;
-    right: -48px;
+    bottom: 23px;
+    right: -23px;
+    gap: 5px;
+    width: 136px;
+    height: 168px;
+    background: #ffffff;
+    display: flex
+;
+    flex-direction: column;
+    /* padding: 8px 13px; */
+    box-shadow: 0px 0px 42.7px 0px #70707040;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 7px 7px 17px 7px;
+    align-content: center;
+}
+.amazing-students p {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 15px;
+}
+.amazing-students .green {
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: 600;
+}
+.amazing-students .green::after{
+    display: none;
 }
 
 /* Hero Content Styling */
@@ -181,19 +216,16 @@ justify-content: space-between;
     flex-direction: column;
     align-items: flex-start;
     height: 489px;
-    background-image: url('../images/Frame\ 6516\ \(1\).svg');
+    
     justify-content: center;
-    background-repeat: no-repeat;
-    background-position-x: 326px;
-    border-radius: 0px 50px 50px 0px;
     align-content: flex-start;
 }
 
 
 .hero-image .main-img {
-    border-radius: 50px;
-    width: 86%;
-    /* height: 500px; */
+    border-radius: 40px 40px 100px 40px;
+    width: 431px;
+    height: 508px;
 }
 
 /* Info Card */
@@ -324,7 +356,7 @@ justify-content: space-between;
 }
   
   .slider {
-    display: flex;
+    display: block;
     align-items: center;
   }
   
@@ -337,14 +369,13 @@ justify-content: space-between;
 }
   
   .slide {
-    flex: 0 0 25%;
+    background-size: cover !important;
     text-align: center;
     margin: 0 10px;
     height: 432px;
     background: #000;
     border-radius: 8px;
     position: relative;
-    width: 292px !important;
   }
 
   .slides .slick-list.draggable {
@@ -363,7 +394,7 @@ p.tech-name {
     color: #ffffff;
     bottom: 9px;
     font-family: 'Poppins';
-    font-size: 32px;
+    font-size: 24px;
     left: 24px;
     font-weight: 600;
 }
@@ -446,6 +477,7 @@ p.tech-name {
     color: #333;
     flex-direction: row;
     justify-content: flex-start;
+    align-items: center;
 }
   
 .price {
@@ -582,12 +614,15 @@ p.tech-name {
 ;
     gap: 34px;
     justify-content: space-between;
+    overflow: hidden;
 }
 .review-text {
     display: flex
 ;
-    flex-basis: 55%;
+
+    flex-basis: 80%;
     gap: 15px;
+    margin: 0px -135px 0;
 }
 .best-instructors .green::after {
     display: none;
@@ -987,9 +1022,7 @@ button.slick-next.custom-next.slick-arrow {
 .slick-list {
     margin: 0 -20px; /* Negative margin equal to the slide margin */
 }
-.review-1.slick-slide {
-    width: 300px !important;
-}
+
 .price-phone{
     display: none;
 }
@@ -998,11 +1031,6 @@ button.slick-next.custom-next.slick-arrow {
 }
 .hero-content {
     padding-left: 60px;
-    padding-bottom: 107px;
-    border-radius: 50px;
-    background-image: url(../images/Ellipse\ 5.svg);
-    background-position: bottom left;
-    background-repeat: no-repeat;
 }
 span.students {
     display: flex
@@ -1016,12 +1044,22 @@ span.students img {
 }
 .review-1 {
     box-shadow: 0px 0px 7.61px 0px #E2E2E240;
-    padding: 11px;
+    padding: 40px 30px;
+    margin-top: 13px;
 }
 @media (max-width: 1080px) {
-    .review-heading h4 {
-        width: 252px;
+    span.students img {
+        width: 12px;
     }
+    .sliderCont{
+        width: 100% !important;
+    }
+    .hero-section{
+    background-image: url('../images/Ellipse\ 5.svg'),url('../images/mob-bg.svg');
+    background-repeat: no-repeat,no-repeat;
+    background-position: center left, 276px 13px;
+    }
+    
     .jop-opp {
         width: 129px;
         position: absolute;
@@ -1051,6 +1089,11 @@ span.students img {
     .slick-slide {
         margin: 0 3px; /* Adjust the gap size (10px in this case) */
     }
+    .HeroSec {
+        height: auto;
+        flex-direction: column;
+        background-image: unset;
+    }
     
     /* Adjust container width to remove overflow */
     .slick-list {
@@ -1064,12 +1107,10 @@ span.students img {
     .slide {
         flex: 0 0 25%;
         text-align: center;
-        margin: 0 10px;
         height: 432px;
         background: #000;
         border-radius: 8px;
         position: relative;
-        width: 116px !important;
         height: 133px !important;
     }
     p.tech-name {
@@ -1077,10 +1118,13 @@ span.students img {
         color: #ffffff;
         bottom: 9px;
         font-family: 'Poppins';
-        font-size: 13px;
+        font-size: 11px;
         left: 0%;
-        top: -74px;
+        top: 41%;
         font-weight: 600;
+    }
+    .slides .slide {
+        background-size: contain;
     }
     .navbar-mob {
         display: flex
@@ -1125,7 +1169,8 @@ justify-content: flex-start;
         color: #000;
     }
     .hero-image .main-img {
-        width: 78%;
+        width: 260px;
+        height: 306px;
         margin-top: 0px;
     }
     .best-instructors {
@@ -1149,9 +1194,10 @@ justify-content: flex-start;
     }
     .amazing-students {
         position: absolute;
-        bottom: 30px;
-        /* width: 77px; */
-        right: 8px;
+        bottom: 66px;
+        width: 77px;
+        height: 88px;
+        right: -20px;
     }
     .categories {
         margin: 0px 0 48px;
@@ -1172,7 +1218,15 @@ justify-content: flex-start;
         gap: 16px;
     }
     .amazing-students img {
-        width: 100px;
+        width: 18px;
+    }   
+    .amazing-students .green {
+        font-size: 14px;
+    }
+    .amazing-students p {
+        font-family: 'Poppins';
+        font-weight: 500;
+        font-size: 7px;
     }
     .best-instructors img {
         width: 65%;
@@ -1212,11 +1266,20 @@ justify-content: flex-start;
         align-items: center;
         justify-content: center;
     }
+    .education-image > img {
+        width: 91%;
+        border-radius: 30px;
+    }
+    .review-1 p {
+        font-family: 'Open Sans';
+        font-weight: 400;
+        line-height: 16px;
+        font-size: 12px;
+    }
     .hero-content {
         padding-left: 0px;
         padding-bottom: 50px;
         border-radius: 50px;
-        background-image: url(../images/Ellipse\ 5.svg);
         background-position: bottom left;
         background-repeat: no-repeat;
     }
@@ -1228,9 +1291,10 @@ justify-content: flex-start;
     .hero-image {
         position: relative;
         display: flex
-    ;
+;
+        width: 100%;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-end;
         height: 391px;
         background-image: unset;
         justify-content: center;
@@ -1292,25 +1356,31 @@ justify-content: flex-start;
         font-family: 'Poppins';
         font-size: 14px;
         font-weight: 500;
+        width: 96%;
     }
     .course-title {
         display: flex
-    ;
+;
         align-content: center;
         align-items: baseline;
         padding: 13px 13px 0px;
         gap: 0px;
+        position: relative;
     }
     .course-title span {
         display: flex
-    ;
+;
         flex-direction: row;
         align-items: center;
         font-size: 8px;
         gap: 0px;
+        right: 12px;
+        top: 17px;
+        position: absolute;
     }
     .course-title img {
-        width: 10px;
+        width: 8px;
+        margin-right: 2px;
     }
     .price-desk{
         display: none;
@@ -1386,10 +1456,11 @@ justify-content: flex-start;
 ;
         float: left;
         font-weight: 700;
-        width: 382px;
+        width: 100%;
         flex-direction: row;
         align-content: center;
         align-items: flex-end;
+        justify-content: space-between;
     }
     .review-cont {
         display: flex
@@ -1415,9 +1486,10 @@ justify-content: flex-start;
     }
     .review-text {
         display: flex
-    ;
+;
         flex-basis: 100%;
-        gap: 20px;
+        gap: 10px;
+        margin: 0px;
     }
     .name {
         display: flex
@@ -1449,7 +1521,7 @@ justify-content: flex-start;
     .review-1 {
         font-size: 12px;
         margin-bottom: 25px;
-        padding: 19px;
+        padding: 14px;
     }
     section.reviews {
         margin-bottom: 40px;
@@ -1492,6 +1564,9 @@ justify-content: flex-start;
         align-content: center;
         justify-content: flex-start;
         align-items: center;
+    }
+    .instructor-card:last-child,.feature-item:last-child {
+        flex: 0 0 50%; 
     }
     p.quote {
         font-family: 'Poppins';
@@ -1666,9 +1741,14 @@ justify-content: flex-start;
         flex: 1;
         margin-right: 0px;
     }
+    .det {
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 12px;
+    }
     
 }
-@media (max-width: 375px) {
+@media (max-width: 400px) {
 footer ul li a {
     color: #fff;
     text-decoration: none;
@@ -1677,5 +1757,11 @@ footer ul li a {
     font-weight: 400;
     line-height: 25px;
     margin-bottom: 8px;
+}
+
+.det {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 9px;
 }
 }
