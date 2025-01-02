@@ -1093,13 +1093,12 @@ span.students img {
         content: '';
   position: absolute;
   top: 402px;
-  left: 56px;
+  left: 24px;
   width: 213px;
   height: 213px;
   background: url('../images/mob-banner-bg.svg') no-repeat center center;
   background-size: cover;
   background-position: center;
-  filter: blur(700px); /* Adjust blur strength */
   z-index: 1; /* Place it behind the content */
     }
 
