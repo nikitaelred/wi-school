@@ -1059,7 +1059,7 @@ span.students img {
     .hero-section{
     background-image: url('../images/mob-banner-bg.svg'),url('../images/mob-bg.svg');
     background-repeat: no-repeat,no-repeat;
-    background-position: -100px, 276px 13px;
+    background-position: -130px, 276px 13px;
     background-size: contain,contain;
     }
     
