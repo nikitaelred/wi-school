@@ -1067,6 +1067,11 @@ span.students img {
     color: #fff;
     position: relative;
 }
+.hero-image .main-img {
+    border-radius: 40px 40px 100px 40px;
+    width: 380px;
+    height: 508px;
+}
 }
 
 @media (max-width: 1080px) {
@@ -1079,8 +1084,8 @@ span.students img {
     .hero-section {
         background-image: url(../images/mob-bg.svg), url(../images/mob-banner-bg.svg);
         background-repeat: no-repeat, no-repeat;
-        background-position: 90% 13px, 24px;
-        background-size: contain, cover;
+        background-position: 93% 13px, 24px;
+        background-size: contain, 213px;
     }
 
     
