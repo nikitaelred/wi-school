@@ -1050,6 +1050,9 @@ span.students img {
     padding: 40px 30px;
     margin-top: 13px;
 }
+section.instructors-section .header h2 {
+    color: #000 !important;
+}
 
 @media (max-width: 1280px) {
 .cta-section {
