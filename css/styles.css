@@ -1087,17 +1087,18 @@ span.students img {
         background-position: 93% 13px;
         background-size: contain;
         backdrop-filter: blur(700px);
+        position: relative;
     }
     .hero-section::after{
         content: '';
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  top: 402;
+  left: 56px;
+  width: 213px;
+  height: 213px;
   background: url('../images/mob-banner-bg.svg') no-repeat center center;
   background-size: 213px;
-  background-position: 24px;
+  background-position: cover;
   filter: blur(100px); /* Adjust blur strength */
   z-index: 1; /* Place it behind the content */
     }
