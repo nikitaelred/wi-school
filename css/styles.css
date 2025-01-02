@@ -1082,24 +1082,10 @@ span.students img {
         width: 100% !important;
     }
     .hero-section {
-        background-image: url(../images/mob-bg.svg);
-        background-repeat: no-repeat;
-        background-position: 93% 13px;
-        background-size: contain;
-        position: relative;
-    }
-    .hero-section .HeroSec::after {
-        content: '';
-        position: absolute;
-        top: 465px;
-        left: 59px;
-        width: 200px;
-        height: 200px;
-        background: #09B451;
-        background-size: cover;
-        background-position: center;
-        z-index: -9999999999999;
-        filter: blur(600px);
+        background-image: url(../images/mob-bg.svg), url(../images/mob-banner-bg.svg);
+        background-repeat: no-repeat, no-repeat;
+        background-position: 93% 13px, 24px;
+        background-size: contain, 213px;
     }
 
     
