@@ -1089,18 +1089,18 @@ span.students img {
         backdrop-filter: blur(700px);
         position: relative;
     }
-    .hero-section::after {
+    .hero-section .HeroSec::after {
         content: '';
         position: absolute;
         top: 465px;
         left: 59px;
-        width: 100px;
-        height: 100px;
+        width: 200px;
+        height: 200px;
         background: #09B451;
         background-size: cover;
         background-position: center;
         z-index: -9999999999999;
-        filter: blur(700px);
+        filter: blur(600px);
     }
 
     
