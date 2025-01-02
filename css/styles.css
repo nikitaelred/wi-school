@@ -776,8 +776,8 @@ p.quote {
     background: #000;
     background-image: url(../images/giphy\ \(3\)\ 3.png), url(../images/cta-bg.png);
     background-position: left, right;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat, no-repeat;
+    background-size: contain, cover;
     color: #fff;
     position: relative;
 }
