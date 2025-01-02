@@ -1795,3 +1795,12 @@ footer ul li a {
     width: 99%;
 }
 }
+@media (max-width: 350px) {
+.course h3 {
+    text-align: left;
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-weight: 500;
+    width: 94%;
+}
+}
