@@ -1060,7 +1060,7 @@ span.students img {
     background-image: url('../images/mob-banner-bg.svg'),url('../images/mob-bg.svg');
     background-repeat: no-repeat,no-repeat;
     background-position: -138px, 276px 13px;
-    background-size: contain,contain;
+    background-size: cover,contain;
     }
     
     .jop-opp {
