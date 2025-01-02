@@ -677,7 +677,7 @@ span.green::after {
 ;
     justify-content: center;
     align-items: baseline;
-    margin-bottom: 113px;
+    margin-bottom: 54px;
 }
 .user-profile {
     display: flex
@@ -696,9 +696,10 @@ span.green::after {
     height: 56px;
 }
 .name p {
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 27px;
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    line-height: 27px !important;
+    color: #000 !important;
 }
 .name span {
     font-size: 18px;
@@ -710,6 +711,7 @@ span.green::after {
     font-family: 'Open Sans';
     font-weight: 400;
     line-height: 30px;
+    color: #333333;
     font-size: 18px;
 }
 section.reviews{
@@ -1055,9 +1057,9 @@ span.students img {
         width: 100% !important;
     }
     .hero-section{
-    background-image: url('../images/Ellipse\ 5.svg'),url('../images/mob-bg.svg');
+    background-image: url('../images/mob-banner-bg.svg'),url('../images/mob-bg.svg');
     background-repeat: no-repeat,no-repeat;
-    background-position: center left, 276px 13px;
+    background-position: center, 276px 13px;
     }
     
     .jop-opp {
@@ -1081,8 +1083,8 @@ span.students img {
         height: 138px !important;
     }
     .hero-section .container:nth-of-type(1) {
-        padding-top: 66px;
-      }
+        padding-top: 77px;
+    }
     .slick-arrow {
         display: none !important;
     }
@@ -1499,9 +1501,9 @@ justify-content: flex-start;
         height: auto;
     }
     .name p {
-        font-size: 12px;
-        font-weight: 700;
-        line-height: 16px;
+        font-size: 12px !important;
+        font-weight: 700 !important;
+        line-height: 16px !important;
     }
     .user-profile {
         display: flex
@@ -1514,7 +1516,7 @@ justify-content: flex-start;
     }
     .name span {
         font-size: 12px;
-        font-weight: 600;
+        font-weight: 400;
         color: #09b451;
         line-height: 16px;
     }
