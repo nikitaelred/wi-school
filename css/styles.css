@@ -1099,6 +1099,7 @@ span.students img {
   background: url('../images/mob-banner-bg.svg') no-repeat center center;
   background-size: cover;
   background-position: center;
+  filter: blur(50px); /* Adjust blur strength */
   z-index: 1; /* Place it behind the content */
     }
 
