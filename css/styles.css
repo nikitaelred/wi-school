@@ -1656,7 +1656,7 @@ justify-content: flex-start;
     .form-div {
         display: flex
     ;
-    max-width: 341px;
+    max-width: 430px;
     width: 100%;
         flex-direction: row;
         justify-content: center;
