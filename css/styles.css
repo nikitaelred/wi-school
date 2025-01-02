@@ -1059,7 +1059,7 @@ span.students img {
     .hero-section{
     background-image: url('../images/mob-banner-bg.svg'),url('../images/mob-bg.svg');
     background-repeat: no-repeat,no-repeat;
-    background-position: center, 276px 13px;
+    background-position: left, 276px 13px;
     background-size: contain;
     }
     
@@ -1278,6 +1278,8 @@ justify-content: flex-start;
         font-weight: 400;
         line-height: 16px;
         font-size: 12px;
+        height: 78px;
+        overflow-y: hidden;
     }
     .hero-content {
         padding-left: 0px;
@@ -1314,6 +1316,10 @@ justify-content: flex-start;
         font-size: 14px;
         color: #333;
         margin-bottom: 0px;
+    }
+    .mob-new-course .header h2 {
+        font-weight: 600 !important;
+        font-size: 16px !important;
     }
     .see-all {
         font-size: 14px;
@@ -1366,7 +1372,7 @@ justify-content: flex-start;
 ;
         align-content: center;
         align-items: baseline;
-        padding: 13px 13px 0px;
+        padding: 0px 13px 0px;
         gap: 0px;
         position: relative;
     }
@@ -1378,7 +1384,7 @@ justify-content: flex-start;
         font-size: 8px;
         gap: 0px;
         right: 12px;
-        top: 17px;
+        top: 6px;
         position: absolute;
     }
     .course-title img {
@@ -1505,15 +1511,24 @@ justify-content: flex-start;
         font-size: 12px !important;
         font-weight: 700 !important;
         line-height: 16px !important;
+        height: auto !important;
     }
     .user-profile {
         display: flex
-    ;
+;
         flex-direction: row;
         gap: 12px;
         align-items: center;
         justify-content: flex-start;
-        margin-bottom: 24px;
+        margin-bottom: 12px;
+    }
+    section.instructors-section .header h2 {
+        font-size: 16px;
+        font-weight: 600;
+        
+    }
+    section.instructors-section .header {
+    margin-bottom: 45px;
     }
     .name span {
         font-size: 12px;
@@ -1522,6 +1537,7 @@ justify-content: flex-start;
         line-height: 16px;
     }
     .review-1 {
+        height: 155px;
         font-size: 12px;
         margin-bottom: 25px;
         padding: 14px;
@@ -1531,9 +1547,9 @@ justify-content: flex-start;
     }
     .instructors {
         display: flex
-    ;
-    justify-content: center;
-        gap: 20px;
+;
+        justify-content: center;
+        gap: 16px;
         flex-direction: row;
         flex-wrap: wrap;
     }
@@ -1574,7 +1590,7 @@ justify-content: flex-start;
     p.quote {
         font-family: 'Poppins';
         font-weight: 400;
-        font-size: 8px;
+        font-size: 12px;
         color: #333;
         margin-top: 16px;
     }
@@ -1590,8 +1606,8 @@ justify-content: flex-start;
     }
     .cta-section {
         display: flex
-    ;
-        margin-top: 40px;
+;
+        margin-top: 76px;
         height: auto;
         align-items: center;
         background: #000000e6;
@@ -1701,6 +1717,7 @@ justify-content: flex-start;
         text-align: center;
         font-family: 'Open Sans';
         font-weight: 700;
+        line-height: 38px;
         padding: 0px 40px;
         margin-bottom: 24px;
         margin-top: 70px;

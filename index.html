@@ -606,7 +606,7 @@
       <section class="instructors-section">
         <div class="container">
         <div class="header">
-          <h2>We Bring The Good Education To Life</h2>
+          <h2>Meet our instructors</h2>
           
         </div>
         <div class="instructors">
@@ -758,6 +758,15 @@ $('.slides').slick({
   slidesToScroll: 1,
   prevArrow: '<button type="button" class="slick-prev custom-prev"><</button>',
     nextArrow: '<button type="button" class="slick-next custom-next">></button>',
+    responsive: [
+    {
+      breakpoint: 1080,       
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1,
+      },
+    },
+  ],
 });
 
 $('.courses-slider').slick({
