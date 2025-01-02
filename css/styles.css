@@ -1147,12 +1147,12 @@ section.instructors-section .header h2 {
         height: 133px !important;
     }
     p.tech-name {
-        position: inherit;
+        position: static;
         color: #ffffff;
         bottom: 9px;
         font-family: 'Poppins';
         font-size: 16px;
-        left: 0%;
+        /* left: 0%; */
         /* top: 45%; */
         font-weight: 600;
     }
